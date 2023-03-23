@@ -11,10 +11,10 @@ while True:
     option = input("Enter option number: ")
 
     if option == "1":
-        print("Executing Python script A to convert rules...")
+        print("Executing Python PA-Convert script to convert rules...")
         subprocess.call(["python", "PA-Convert.py"]) 
     elif option == "2":
-        print("Executing Python script B to install rules to OCI Firewall...")
+        print("Executing Python  PA-Instal script to install rules to OCI Firewall...")
         subprocess.call(["python", "PA-Install.py"]) 
     elif option == "3":
         print("Exiting...")
